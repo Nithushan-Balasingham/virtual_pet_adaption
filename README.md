@@ -52,7 +52,7 @@ Follow these steps to set up the project:
 
 ```sh
 # 1. Clone the repository 
-git https://github.com/Nithushan-Balasingham/location_device-managment
+git https://github.com/Nithushan-Balasingham/virtual_pet_adaption
 cd FE
 
 # 2. Install dependencies
