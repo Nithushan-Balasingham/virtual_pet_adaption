@@ -19,7 +19,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1>Virtual Pet Adoption</h1>
+      <h1>Virtual Pet Adoption😊😊</h1>
       <FilterBar filterMood={filterMood} setFilterMood={setFilterMood} fetchPets={fetchPets} />
       <PetForm onSuccess={fetchPets} />
       
