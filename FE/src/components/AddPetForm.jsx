@@ -44,17 +44,46 @@ export default function PetForm({ existingPet = null, onSuccess, onCancel }) {
   return (
     <form onSubmit={handleSubmit}>
       {/* {existingPet && <div className="text-title">Update</div>} */}
-      {existingPet && (<div className="text-sub">Name</div>)}
-      <input className="input-box" name="name" placeholder="Name"value={form.name} onChange={handleChange} required/>
+      {existingPet && <div className="text-sub">Name</div>}
+      <input
+        className="input-box"
+        name="name"
+        placeholder="Name"
+        value={form.name}
+        onChange={handleChange}
+        required
+      />
 
-      {existingPet && (<div className="text-sub">Species</div>)}
-      <input className="input-box" name="species" placeholder="Species" value={form.species} onChange={handleChange} required/>
+      {existingPet && <div className="text-sub">Species</div>}
+      <input
+        className="input-box"
+        name="species"
+        placeholder="Species"
+        value={form.species}
+        onChange={handleChange}
+        required
+      />
 
-      {existingPet && (<div className="text-sub">Age</div>)}
-      <input className="input-box" name="age" type="number" placeholder="Age" value={form.age} onChange={handleChange} required/>
+      {existingPet && <div className="text-sub">Age</div>}
+      <input
+        className="input-box"
+        name="age"
+        type="number"
+        placeholder="Age"
+        value={form.age}
+        onChange={handleChange}
+        required
+      />
 
-      {existingPet && (<div className="text-sub">Personality</div>)}
-      <input className="input-box" name="personality"  placeholder="Personality"  value={form.personality}  onChange={handleChange}  required/>
+      {existingPet && <div className="text-sub">Personality</div>}
+      <input
+        className="input-box"
+        name="personality"
+        placeholder="Personality"
+        value={form.personality}
+        onChange={handleChange}
+        required
+      />
       <button type="submit" className="add-button">
         {existingPet ? "Update" : "Add"}
       </button>

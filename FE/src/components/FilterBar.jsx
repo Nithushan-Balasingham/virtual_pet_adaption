@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 export default function FilterBar({ filterMood, setFilterMood, fetchPets }) {
-  const handleFilter = e => {
+  const handleFilter = (e) => {
     const mood = e.target.value;
     setFilterMood(mood);
     fetchPets(mood);
