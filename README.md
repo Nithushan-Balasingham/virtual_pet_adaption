@@ -8,7 +8,7 @@ Follow these steps to set up the project:
 
 ```sh
 # 1. Clone the repository 
-git https://github.com/Nithushan-Balasingham/virtual_pet_adaption
+git clone  https://github.com/Nithushan-Balasingham/virtual_pet_adaption
 cd BE
 
 # 2. Install dependencies
